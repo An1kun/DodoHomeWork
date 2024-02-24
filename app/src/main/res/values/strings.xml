@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">DodoHomeWork</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutpizza">aboutPizza</string>
+    <string name="imageofpizza">imageofpizza</string>
+    <string name="pizza">PIZZA</string>
+    <string name="about_pizza">ABOUT PIZZA</string>
+    <string name="medium">Medium</string>
+    <string name="small">Small</string>
 </resources>

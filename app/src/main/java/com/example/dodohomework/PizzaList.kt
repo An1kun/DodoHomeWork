@@ -1,0 +1,80 @@
+package com.example.dodohomework
+
+class PizzaList {
+    private val pizzasList = listOf(
+        PizzaItem(
+            1,
+            "Pizza1",
+            "Pizza1Pizza1Pizza1Pizza1Pizza1Pizza1Pizza1Pizza1",
+            25,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/CRU5100_PeriPeriChick_600x600_tiny.png"
+        ),
+        PizzaItem(
+            2,
+            "Pizza2",
+            "Pizza2Pizza2Pizza2Pizza2Pizza2Pizza2",
+            22,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/Meat-Deluxe_600x600.png"
+        ),
+        PizzaItem(
+            3,
+            "Pizza3",
+            "Pizza3Pizza3Pizza3Pizza3Pizza3Pizza3Pizza3",
+            21,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/CRU5100_CrustSupreme_600x600_tiny.png"
+        ),
+        PizzaItem(
+            4,
+            "Pizza4",
+            "Pizza4Pizza4Pizza4Pizza4Pizza4Pizza4Pizza4Pizza4",
+            10,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/CRU5100_VegSupreme_600x600_tiny.png"
+        ),
+        PizzaItem(
+            5,
+            "Pizza5",
+            "Pizza5Pizza5Pizza5Pizza5Pizza5Pizza5Pizza5Pizza5Pizza5Pizza5",
+            11,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/Smokey-BBQ-Pulled-Jackfruit_600x600.png"
+        ),
+        PizzaItem(
+            6,
+            "Pizza6",
+            "Pizza6Pizza6Pizza6Pizza6Pizza6Pizza6Pizza6",
+            10,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/BBQ_600x600.png"
+        ),
+        PizzaItem(
+            7,
+            "Pizza7",
+            "Pizza7Pizza7Pizza7Pizza7Pizza7Pizza7Pizza7Pizza7Pizza7Pizza7",
+            16,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/Vietnamese-Chilli-Chicken_600x600.png"
+        ),
+        PizzaItem(
+            8,
+            "Pizza8",
+            "Pizza8Pizza8Pizza8Pizza8Pizza8Pizza8Pizza8Pizza8",
+            13,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/CRU5076_Web_Images_600x600_5_Shepards_Lie_tiny.png"
+        ),
+        PizzaItem(
+            9,
+            "Pizza9",
+            "Pizza9Pizza9Pizza9Pizza9",
+            7,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/Smokey-BBQ-Pulled-Jackfruit_600x600.png"
+        ),
+        PizzaItem(
+            10,
+            "Pizza10",
+            "Pizza10Pizza10Pizza10Pizza10",
+            10,
+            "https://d2mekbzx20fc11.cloudfront.net/uploads/Truffle_Beef_Rosini_600x600.png"
+        ),
+    )
+
+    fun getPizzas(): List<PizzaItem> {
+        return pizzasList
+    }
+}
